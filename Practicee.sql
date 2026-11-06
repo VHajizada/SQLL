@@ -97,8 +97,9 @@ fetch first 3 rows only;
 -- Task 15:
 select First_name,
 Last_name, 
-extract(Day from hire_date) As ise_giren_gun
+extract(Day from hire_date) As ise_giren_gun   
 from hr.EMPLOYEES
+where extract ( Day from hire_date)>15 and Salary between 5000 and 12000;
 -- Task 16:
   Select First_name,
 Last_name,
