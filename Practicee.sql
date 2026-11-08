@@ -175,17 +175,3 @@ SELECT
     ROUND((salary * 12) * 0.85, 2) AS illik_net
 FROM hr.employees;
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-where extract ( Day from hire_date)>15 and Salary between 5000 and 12000;
